@@ -18,7 +18,7 @@
   },
   "bugs": "https://github.com/josdejong/jsoneditor/issues",
   "scripts": {
-    "build": "gulp && cp baidu_verify_codeva-6shorKkgdC.html dist/baidu_verify_codeva-6shorKkgdC.html",
+    "build": "gulp",
     "build-and-test": "npm run build && npm test && npm run lint",
     "minify": "gulp minify",
     "start": "gulp watch",
